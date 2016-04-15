@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Mad Lib Generator</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mad Lib Generator</h1>
+      <p>
+        Remember all of those family trips where you and your siblings would constantly nag your parents asking them, "Are we there yet?", and they would toss you a paperback filled with, what your parents hoped, hours of blank Mad Libs? Well now you can use these three stories to make and infinate amount of reversions of the same three stories, which will entertain you for probably the same amount of time as the old paperback would! IF you have no idea what any of this means... Follow this link for more information:
+        <a href="http://en.wikipedia.org/wiki/Mad_Libs">http://en.wikipedia.org/wiki/Mad_Libs</a>
+      </p>
+    </header>
+    <form id="login_info" autocomplete="on">
+   <h1>Log In</h1>
+   <p>
+        <label for="username" class="uname" data-icon="u" >Username:</label>
+        <input id="username" name="username" required="required" type="text" placeholder="Username"/>
+   </p>
+   <p>
+        <label for="password" class="youpasswd" data-icon="p">Password:</label>
+        <input id="password" name="password" required="required" type="password" placeholder="Password" />
+   </p>
+   <p class="keeplogin">
+        <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" />
+        <label for="loginkeeping">Keep me logged in</label>
+   </p>
+   <p class="login_button">
+        <input type="button" value="Login" />
+   </p>
+</form>
+    <div id="everything" class="hidden">
+      <div id="content">
+        <form>
+          <div class = 'left-align'><label> Nouns:
+            <input id="nouns" type="text" placeholder="noun, noun, noun, noun">
+          </label></div>
+          <div class = 'left-align'><label> Adjectives:
+            <input id="adjectives" type="text" placeholder="adjective, adjective, adjective, adjective">
+          </label></div>
+          <div class = 'left-align'><label> Adverbs:
+            <input id="adverbs" type="text" placeholder="adverb, adverb, adverb, adverb">
+          </label></div>
+          <div class = 'left-align'><label> Verbs:
+            <input id="verbs" type="text" placeholder="verb, verb, verb, verb">
+          </label></div>
+        </div>
+        <div id="selections">
+          <input id="pirate" type="radio" name="mad_lib" value="pirate">
+          <label for="pirate">Pirate</label>
+          <input id="first_day" type="radio" name="mad_lib" value="First Day of Class">
+          <label for="First Day of Class">First Day of Class</label>
+          <input id="wta_cafe" type="radio" name="mad_lib" value="WTA Cafe">
+          <label for="WTA Cafe">WTA Cafe</label>
+        </div>
+      </form>
+      <h5 id="story"></h5>
+    </div>
+    <script src="jquery-2.2.2.min.js"></script>
+    <script src="application.js"></script>
+    <script type="text/javascript" src="application.js"></script>
+  </body>
+</html>

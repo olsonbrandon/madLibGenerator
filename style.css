@@ -1,0 +1,57 @@
+.hidden{
+  display: none;
+}
+.left-align{
+  text-align: left;
+  font-weight: bold;
+  padding: 6px 12px;
+  padding-top: 8px;
+}
+label{
+  text-align: left;
+  width: 100px;
+}
+form{
+  width: 70%;
+  margin: 0 auto;
+}
+#content {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+#nouns, #adjectives, #adverbs, #verbs {
+  width: 500px;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: 12px;
+  display: inline-block;
+  float: right;
+  clear: right;
+}
+#selections {
+  display: block;
+  text-align: center;
+  width: 500px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+display: block;
+background-color: #F2F2F3;
+width: 1000px;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+margin-top: 20px;
+overflow:scroll;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+#story {
+  font-size: 20px;
+}
